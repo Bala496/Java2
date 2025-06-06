@@ -25,6 +25,7 @@ public class Css {
 //		driver.findElement(By.cssSelector("[value='1']")).click();
 		
 		driver.findElement(By.cssSelector("[data-testid^='op']")).click();
+		driver.findElement(By.cssSelector("[data-testid^='op']")).click();
 		
 		driver.findElement(By.cssSelector("[aria-label$=' password']")).sendKeys("Thara");
 		
