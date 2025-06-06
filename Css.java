@@ -15,6 +15,8 @@ public class Css {
 
 		WebElement username = driver.findElement(By.cssSelector("#email"));   //id 
 		username.sendKeys("Shama");
+		username.sendKeys("Shama");
+
 		Thread.sleep(3000);
 //		username.clear();
 		
